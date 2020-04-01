@@ -57,7 +57,7 @@ guessBtn.addEventListener("click", function() {
 
       gameOver(
         false,
-        `Good game, you lost. The correct numbner is ${winningNum}.`
+        `Good game, you lost. The correct number is ${winningNum}.`
       );
     } else {
       // Game continues even when answer is wrong
