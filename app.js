@@ -39,6 +39,10 @@ guessBtn.addEventListener("click", function() {
   if (guess === winningNum) {
     // Disable input
     guessInput.disabled = true;
+    // Change input border to green to show user won
+    guessInput.style.borderColor = "green";
+    // Set message
+    setMessage(`${winningNum} is correct! YOU WIN~~!!`, "green");
   } else {
   }
 });
